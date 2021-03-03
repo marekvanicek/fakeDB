@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF5C0C69-3F16-B681-095A-5D63973D7478" name="Player">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>56EC0925-EE4D-5E2C-CD2A-9942D47034D5</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_player" id="CBF97735-D4B4-1604-14DD-9BF731ED8A5F">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>80F366A3-13F1-2F0D-9269-8BA035A27C6C</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstName" id="04E266B2-986E-76EA-0CF8-A1093C3E5626">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>DDCFC36B-4CB4-CF94-9706-45C2ADD5BF90</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastName" id="06C27A0D-D154-3D1A-EEE7-C1156DB3B7D5">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>074C2E1C-D882-DEB5-A781-C55BC16A3D60</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_id_club" id="241C68F4-A04D-49E4-59C6-BFEEE38A812B">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>60681B05-E3BA-260E-B161-363B065024C4</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B66FC0-72E1-3C72-B0A7-40966A74431A" referredColumn="3E78946F-A7B8-50D0-AEAD-C8A8889AF829"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3001145E-8E32-0E15-72DD-D5CADB3441A7" name="Player_PK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>3A9771FF-F359-DD54-FA2A-657A9C293675</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF97735-D4B4-1604-14DD-9BF731ED8A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36DF6D08-675B-3987-82A9-DD01A1FA8A78" name="Player_Club_FK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>087BC2F9-73FB-CCA5-1C96-58CC89B5105D</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241C68F4-A04D-49E4-59C6-BFEEE38A812B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

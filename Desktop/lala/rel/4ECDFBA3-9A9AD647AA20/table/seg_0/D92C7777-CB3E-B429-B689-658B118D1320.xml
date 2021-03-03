@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D92C7777-CB3E-B429-B689-658B118D1320" name="Club_Formation">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Club_id_club" id="FBDF2B81-2DEE-55F3-2355-E5ADFA8AF7F7">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D001529A-8CA3-96AF-0D3D-7F44DB112621" referredColumn="3E78946F-A7B8-50D0-AEAD-C8A8889AF829"/>
+</associations>
+</Column>
+<Column name="Formation_id_formation" id="DE386464-639C-C6D5-BF51-AE3DB8090E98">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB395216-513A-5CE1-CB12-2E5C3587DB0B" referredColumn="CE71C269-96B5-C6B5-807A-40B8D8F7325E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1C5D9AD-96AF-34B9-D4D0-5426EDB23727" name="Club_Formation_PK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBDF2B81-2DEE-55F3-2355-E5ADFA8AF7F7"/>
+<colUsage columnID="DE386464-639C-C6D5-BF51-AE3DB8090E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F51BCC2-4616-CCBC-F193-82A1FF2235B0" name="Club_Formation_Club_FK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>AC358394-4EAC-D706-2CFB-FBCA6BE4C5E5</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBDF2B81-2DEE-55F3-2355-E5ADFA8AF7F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2DD72CD-CC66-99AF-7495-AEB81CBA032F" name="Club_Formation_Formation_FK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>AC358394-4EAC-D706-2CFB-FBCA6BE4C5E5</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE386464-639C-C6D5-BF51-AE3DB8090E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

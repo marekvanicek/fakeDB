@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56EC0925-EE4D-5E2C-CD2A-9942D47034D5" name="Player">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:01:57 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_player" id="80F366A3-13F1-2F0D-9269-8BA035A27C6C">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:02:05 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firstName" id="DDCFC36B-4CB4-CF94-9706-45C2ADD5BF90">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:02:50 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastName" id="074C2E1C-D882-DEB5-A781-C55BC16A3D60">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:03:08 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club" id="60681B05-E3BA-260E-B161-363B065024C4">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:06:49 UTC</createdTime>
+<generatorID>087BC2F9-73FB-CCA5-1C96-58CC89B5105D</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>298472D8-3574-488F-02F6-3B8DE3A7D30F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A9771FF-F359-DD54-FA2A-657A9C293675" name="Player PK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 21:02:41 UTC</createdTime>
+<ownerDesignName>lala</ownerDesignName>
+<engineerTo>
+<item key="4ECDFBA3-2B82-EFB0-244B-9A9AD647AA20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80F366A3-13F1-2F0D-9269-8BA035A27C6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

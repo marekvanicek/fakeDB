@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23FF4094-FB38-39BF-B3DE-CB847CD5D7BE" name="Formation">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>F8C1987C-6CF6-5B42-2C96-F28C9ABB40A3</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formation" id="CE71C269-96B5-C6B5-807A-40B8D8F7325E">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>CF147346-F0CC-E5D2-9CC4-5E79E8C2CC0B</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="defenders" id="20337AF1-DC5C-B97C-0115-341825975FA6">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>7291FF0B-4570-F70A-2B45-720045B8D039</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="midfielders" id="A756B697-A20C-630B-BB95-BAC76BE9CA17">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>5A10F8C9-1965-61E4-2FFC-1DDE4162366B</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="strikers" id="A3944B87-1BFC-5E78-E3E6-9FD2F0EDDD6B">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>C5E19A14-3C56-F774-AEA2-169060FFE535</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="216E4894-C3EB-01DC-067B-0A0378A36B51" name="Formation_PK">
+<createdBy>marekvanicek</createdBy>
+<createdTime>2020-12-03 23:22:20 UTC</createdTime>
+<generatorID>297839A8-B777-53AE-D1DD-FD32F579F0CF</generatorID>
+<ownerDesignName>lala</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE71C269-96B5-C6B5-807A-40B8D8F7325E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
