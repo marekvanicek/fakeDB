@@ -1,0 +1,39 @@
+{
+  "messages" : [
+    {
+      "id" : 1,
+      "sender" : "karel",
+      "receiver": "josef",
+      "subject": "peníze",
+      "time": "10.3.2021"
+    },
+    {
+      "id" : 2,
+      "sender" : "tomek",
+      "receiver": "martin",
+      "subject": "hodinky",
+      "time": "10.3.2021"
+    },
+    {
+      "id" : 3,
+      "sender" : "lukas",
+      "receiver": "petr",
+      "subject": "fotbal",
+      "time": "10.3.2021"
+    },
+    {
+      "id" : 4,
+      "sender" : "jarolim",
+      "receiver": "radim",
+      "subject": "manzelka",
+      "time": "10.3.2021"
+    },
+    {
+      "id" : 5,
+      "sender" : "iveta",
+      "receiver": "petra",
+      "subject": "deti",
+      "time": "10.3.2021"
+    }
+  ]
+}
