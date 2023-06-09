@@ -1,6 +1,5 @@
 {
-	"results": [
-		{
+	"results": [{
 			"id": "0",
 			"name": "karel",
 			"img": "foo.img"
@@ -17,4 +16,3 @@
 		}
 	]
 }
-
